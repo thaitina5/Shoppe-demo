@@ -510,6 +510,7 @@
 
 .header__search-input:focus ~ .header__search-history {
     display: block;
+    z-index: 1;
 }
 
 .header__search-select {
@@ -662,8 +663,8 @@
 
 /* Cart */
 .header__cart {
-    width: 150px;
-    text-align: center;
+    width: 80px;
+    text-align: right;
 }
 
 .header__cart-wrap {
@@ -757,7 +758,9 @@
 .header__cart-list-item {
     padding-left: 0;
     list-style: none;
-}
+    max-height: 56vh;
+    overflow-y: auto;
+}   
 
 .header__cart-item {
     display: flex;

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.3-web/css/all.css">
@@ -16,9 +18,9 @@
 <body>
     <div class="main">
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <!-- Header navbar -->
-                <nav class="header__navbar">
+                <nav class="header__navbar hide-on-tablet-mobile">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng F8 shop
@@ -131,7 +133,7 @@
                 </nav>
                 <!-- Header search -->
                 <div class="header-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -264,7 +266,7 @@
         </header>
 
         <div class="main__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row main__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -274,20 +276,20 @@
                             </h3>
                             <ul class="category__list">
                                 <li class="category__item category__item--active">
-                                    <a href="#" class="category__item-link">Item</a>
+                                    <a href="#" class="category__item-link">Mỹ phẩm</a>
                                 </li>
                                 <li class="category__item">
-                                    <a href="#" class="category__item-link">Item</a>
+                                    <a href="#" class="category__item-link">Dụng cụ trang điểm</a>
                                 </li>
                                 <li class="category__item">
-                                    <a href="#" class="category__item-link">Item</a>
+                                    <a href="#" class="category__item-link">Skin care</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
 
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-tablet-mobile">
                             <span class="home-filter__label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary">Mới nhất</button>
