@@ -133,6 +133,31 @@
                 </nav>
                 <!-- Header search -->
                 <div class="header-search">
+                    <label for="header__mobile-input" class="header__mobile-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+
+                    <input type="checkbox" hidden class="header__input" id="header__mobile-input">
+                    
+                    <label for="header__mobile-input" class="header__overlay"></label>
+                    
+                    <nav class="header__mobile">
+                        <label for="header__mobile-input" class="header__mobile-close">
+                            <i class="fas fa-times"></i>
+                        </label>
+                        <ul class="header__mobile-list">
+                            <li>
+                                <a href="#" class="header__mobile-link">Login</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__mobile-link">Signup</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__mobile-link">Logout</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -145,7 +170,7 @@
                         </a>
                     </div>
                     <!-- Search -->
-                    <div class="header__search">
+                    <div class="header__search hide-on-mobile">
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm ">
                             <div class="header__search-history">
@@ -263,6 +288,23 @@
                     </div>
                 </div>
             </div>
+            <ul class="header__sort-list">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Giá
+                        <i class="header__sort-icon fas fa-sort"></i>
+                    </a>
+                </li>
+            </ul>
         </header>
 
         <div class="main__container">
