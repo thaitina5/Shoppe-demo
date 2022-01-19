@@ -133,6 +133,7 @@
                 </nav>
                 <!-- Header search -->
                 <div class="header-search">
+                    <!-- Mobile menu -->
                     <label for="header__mobile-input" class="header__mobile-btn">
                         <i class="fas fa-bars"></i>
                     </label>
@@ -158,6 +159,13 @@
                         </ul>
                     </nav>
 
+                    <!-- Search mobile -->
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <input type="checkbox" hidden class="header__search-checkbox" id="mobile-search-checkbox">
+
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -169,8 +177,9 @@
                             </svg>
                         </a>
                     </div>
+
                     <!-- Search -->
-                    <div class="header__search hide-on-mobile">
+                    <div class="header__search ">
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm ">
                             <div class="header__search-history">
