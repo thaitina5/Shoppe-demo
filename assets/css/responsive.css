@@ -36,6 +36,10 @@
     .header__sort-list {
         display: flex;
     }
+
+    .main__content {
+        padding-top: 8px;
+    }
 }
 
 /* Tablet */
