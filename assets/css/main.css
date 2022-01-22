@@ -479,7 +479,7 @@
 }
 
 .header__logo-img {
-    width: 150px;
+    width: 110px;
 }
 
 .header__logo-link {
@@ -1049,7 +1049,7 @@
 
 /* Mobile category */
 .mobile-category {
-
+    display: none;
 }
 
 .mobile-category__list {
@@ -1091,6 +1091,7 @@
     text-align: center;
     font-weight: 300;
     width: 110px;
+    padding: 0 6px;
     height: calc(var(--line-height) * 2);
     overflow: hidden;
     display: block;
@@ -1344,13 +1345,23 @@
 }
 
 .home-product-item__sale-off-percent {
+    position: relative;
     color: #ee4d2d;
     font-weight: 600;
     font-size: 1.2rem;
+    line-height: 1.2rem;
+    top: 4px;
 }
 
 .home-product-item__sale-off-label {
+    position: relative;
     color: var(--white-color);
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    top: 8px;
+}
+
+.home-product__pagination {
+    margin: 48px 0 32px;
 }

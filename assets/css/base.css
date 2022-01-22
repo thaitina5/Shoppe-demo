@@ -200,3 +200,43 @@ html {
 .select-input__link:hover {
     color: var(--primary-color);
 }
+
+/* Pagination */
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.pagination__item {
+    margin: 0 12px;
+}
+
+.pagination__item--active .pagination__item-link {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination__item--active .pagination__item-link:hover {
+    background-color: #ed5c3f;
+}
+
+.pagination__item-link {
+    --height: 30px;
+    text-decoration: none;
+    color: #939393;
+    font-size: 2rem;
+    font-weight: 300;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 2px;
+    display: block;
+}
+
+.pagination__item-icon {
+    
+}
