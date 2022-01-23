@@ -116,5 +116,31 @@
     .main__content {
         margin: 0 4px;
     }
+    
+    .pagination {
+        justify-content: space-between;
+    }
 
+    .pagination__item {
+        margin: 0;
+    }
+
+    .pagination__item-link {
+        height: 28px;
+        font-size: 1.6rem;
+        min-width: 34px;
+    }
+
+    .footer__content {
+        padding: 0 16px;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+    
+    .footer__download,
+    .footer__item-link {
+        justify-content: center;
+    }
 }
