@@ -479,7 +479,7 @@
 }
 
 .header__logo-img {
-    width: 110px;
+    width: 160px;
 }
 
 .header__logo-link {
@@ -556,6 +556,7 @@
     overflow: hidden;
     display: none;
     animation: fadeIn ease-in 0.2s;
+    z-index: 1;
 }
 
 .header__search-select::after {

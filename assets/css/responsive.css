@@ -82,6 +82,10 @@
         width: unset;
     } 
 
+    .header__logo-img {
+        width: 110px;
+    }
+
     .header__search {
         position: fixed;
         left: 0;
